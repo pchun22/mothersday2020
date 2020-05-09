@@ -1,8 +1,43 @@
-body{
-  text-align: center;
+html {
+  scroll-behavior: smooth;
 }
 
-.slideshow{
-  width: 80%;
-  margin: auto;
+body{
+  text-align: center;
+  background-color: #b4f2e1;
+}
+
+img {
+  width: 1000px;
+  height: 800px;
+  object-fit: contain;
+}
+
+#front-page{
+  height: 700px;
+  padding: 5%;
+  background-image: url("https://www.hotdesign.com/wp-content/uploads/seaglass-background-1024x562.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+
+.title{
+  font-size: 6rem;
+  margin: 5%;
+  font-family: 'Pacifico', cursive;
+  color: #eb6383;
+  fonnt-out
+}
+
+.down-arrow{
+  font-size: 3rem;
+}
+
+
+.carousel{
+  margin: 0%;
+  padding: 3%;
+  background-color: black;
 }

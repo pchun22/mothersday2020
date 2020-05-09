@@ -1,26 +1,308 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>The Best Mother</title>
 
-    <!-- CSS stylesheets -->
+<head>
+  <meta charset="utf-8">
+  <title>The Best Mother</title>
+
+  <!-- Jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <!-- CSS stylesheets -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
+
+  <!-- Font-awesome -->
+  <script src="https://kit.fontawesome.com/70afd36d2f.js" crossorigin="anonymous"></script>
+
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Pacifico:400,100,700" rel="stylesheet">
 
   <!-- Bootstrap scripts -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  </head>
-  <body>
-    <h1>Happy Mother's Day!</h1>
-    <div class="slideshow">
-      <a data-flickr-embed="true" href="https://www.flickr.com/photos/188317644@N02/albums/72157714211038501" title="Mother&#x27;s Day 2020">
-        <img src="https://live.staticflickr.com/65535/49866125782_e197170e4f_b.jpg" width="684" height="1024" alt="Mother&#x27;s Day 2020">
-      </a>
-      <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+</head>
+
+<body>
+  <div id="front-page">
+    <h1 class="title">Happy Mother's Day!</h1>
+    <button class="btn btn-primary ParkerButton" type="button" data-toggle="collapse" data-target="#ParkerLetter" aria-expanded="false" aria-controls="collapseExample">
+      Parker
+    </button>
+    <button class="btn btn-primary NoeButton" type="button" data-toggle="collapse" data-target="#NoeLetter" aria-expanded="false" aria-controls="collapseExample">
+      Noe
+    </button>
+    <div class="collapse" id="ParkerLetter">
+      <div class="card card-body">
+        Dear Mom,<br />
+        Happy Mother’s Day! Thank you being the best mom a son could ask for. I’m beyond grateful to have such a fun and caring mom. Most moms don’t learn tik-tok dances with their son, send them memes and funny articles, crazily style their hair, or tell borderline inappropriate jokes. You are truly something special. You’ve always taken care the best care of me. Thank you for being there to talk to me when I’m away at college whether it be about school/job stress or social life. You give the best advice and I know that I can talk to you about any problem and feel better about it afterwards. Sometimes I don’t immediately agree with your advice but I’ve come to understand that you know best and think carefully about what you advise. Thank you for filming my dances and always making me food to fuel me through learning to code and dance. I’m grateful I can do whatever and that you will be there in my corner to cheer me on. The reason I am where I am is because you raised, supported, and encouraged me constantly. I love you. <br />
+        Love, <br />
+        Parker
+      </div>
+    </div>
+    <div class="collapse" id="NoeLetter">
+      <div class="card card-body">
+        Dear Mom,<br />
+
+      </div>
     </div>
 
-  </body>
+    </br>
+
+    <div class="down-arrow">
+      <a href="#carouselSlideshow"><i class="fas fa-angle-down"></i></a>
+    </div>
+
+  </div>
+
+  <div id="carouselSlideshow" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active"><img src="images/IMG_0005.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_0006.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_0007.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_0008.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_0009.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_0010.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_0012.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_0014.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_0019.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_0020.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_0021.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_0023.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_0024.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_0025.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_0026.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_0048.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_0069.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_0135.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_0147.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_0154.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_0203.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_0213.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_0236.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_0241.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_0316.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_0356.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_0379.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_0397.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_0442.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_0469.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_0508.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_0527.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_0528.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_0543.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_0609.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_0619.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_0659.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_0673.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_0675.JPEG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_0735.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_0738.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_0763.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_0799.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_0830.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_0836.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_0849.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_0869.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_0922.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_0988.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_0994.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_0995.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_1013.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_1123.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_1127.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_1128.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_1142.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_1234.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_1249.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_1296.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_1395.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_1458.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_1461.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_1467.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_1470.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_1488.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_1662.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_1699.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_1847.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_1867.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_1881.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_1914.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_1968.JPEG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_1982.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_2012.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_2035.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_2140.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_2177.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_2182.JPEG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_2201.JPEG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_2225.JPEG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_2230.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_2276.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_2282.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_2297.JPEG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_2335.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_2345.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_2346.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_2398.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_2400.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_2403.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_2408.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_2461.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_2481.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_2488.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_2528.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_2543.JPEG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_2584.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_2585.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_2617.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_2666.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_2717.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_2776.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_2882.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_2912.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_3062.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_3088.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_3092.JPEG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_3095.JPEG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_3104.JPEG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_3149.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_3157.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_3162.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_3179.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_3246.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_3259.PNG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_3260.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_3266.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_3445.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_3473.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_3485.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_3578.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_3615.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_3702.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_3721.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_3728.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_3784.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_3788.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_3790.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_3800.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_3817.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_3939.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_3977.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_4008.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_4093.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_4172.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_4190.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_4272.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_4298.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_4345.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_4385.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_4407.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_4433.jpeg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_4444.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_4493.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_4504.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_4521.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_4522.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_4539.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_4690.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_4711.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_5128.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_5151.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_5459.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_5541.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_5701.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_5799.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_5860.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_6128.JPEG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_6130.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_6202.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_6213.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_6248.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_6260.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_6278.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_6288.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_6325.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_6343.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_6422.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_6777.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_6784.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_6903.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_6928.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_6929.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_7003.JPEG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_7031.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_7171.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_7194.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_7196.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_7204.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_7366.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_7485.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_7582.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_7597.JPEG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_7599.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_7637.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_7702.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_7703.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_7764.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_7785.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_7802.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_7824.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_7873.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_7891.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_7893.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_7960.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_8120.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_8175.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_8323.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_8356.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_8414.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_8420.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_8562.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_8757.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_9115.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_9118.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_9124.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_9152.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_9162.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_9196.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_9213.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_9229.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_9300.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_9314.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_9325.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_9327.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_9329.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_9360.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_9364.JPEG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_9444.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_9505.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_9590.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_9703.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_9771.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_9792.JPEG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_9847.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_9904.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_9907.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_9921.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_9938.jpg" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_9941.JPG" class="d-block w-100" alt="image"></div>
+      <div class="carousel-item"><img src="images/IMG_9960.jpg" class="d-block w-100" alt="image"></div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselSlideshow" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselSlideshow" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+  <script src="index.js" charset="utf-8"></script>
+
+</body>
+
 </html>
