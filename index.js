@@ -1,5 +1,4 @@
 //var song = new Audio("betterTogether.mp3");
-<<<<<<< HEAD
 var images = ['<div class="carousel-item"><img src="images/IMG_0005.JPG" class="d-block w-100" alt="image"></div>',
 '<div class="carousel-item"><img src="images/IMG_0006.JPG" class="d-block w-100" alt="image"></div>',
 '<div class="carousel-item"><img src="images/IMG_0007.JPG" class="d-block w-100" alt="image"></div>',
@@ -239,8 +238,6 @@ $(document).ready( function(){
   }
   document.querySelector(".carousel-item").classList.add("active");
 })
-=======
->>>>>>> 26e8e9e8e4467320bd8ad7b60462278469193abc
 
 $(".ParkerButton").click( function() {
   console.log("clicked");
@@ -266,9 +263,5 @@ $(".carousel-inner").click( function() {
 //   else{
 //     song.pause();
 //   }
-<<<<<<< HEAD
 //
-=======
-
->>>>>>> 26e8e9e8e4467320bd8ad7b60462278469193abc
 // });
