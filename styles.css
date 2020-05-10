@@ -9,30 +9,40 @@ body{
 
 img {
   width: 1000px;
-  height: 800px;
+  height: 700px;
   object-fit: contain;
 }
 
+a{
+  color: #b4f2e1;
+}
+
+a:hover{
+  color: #00a1ab;
+}
+
 #front-page{
-  height: 700px;
-  padding: 5%;
+  height: auto;
+  padding: 10% 5%;
   background-image: url("https://www.hotdesign.com/wp-content/uploads/seaglass-background-1024x562.jpg");
-  background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
 }
 
 
 .title{
-  font-size: 6rem;
-  margin: 5%;
+  font-size: 5rem;
+  margin: 3% 5% 7%;
+  padding: 3%;
   font-family: 'Pacifico', cursive;
   color: #eb6383;
-  fonnt-out
+  background-color: white;
+  border: 2px #eb6383 solid;
 }
 
 .down-arrow{
   font-size: 3rem;
+  margin-top: 5%;
 }
 
 
@@ -40,4 +50,20 @@ img {
   margin: 0%;
   padding: 3%;
   background-color: black;
+}
+
+.btn{
+  background-color: #b4f2e1;
+  border: 1px white solid;
+  color: white;
+}
+
+.btn:hover{
+  background-color: #00a1ab;
+  border: 1px white solid;
+  color: white;
+}
+
+.card{
+  background-color: #ffe9c5;
 }
