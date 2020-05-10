@@ -234,6 +234,7 @@ var images = ['<div class="carousel-item"><img src="images/IMG_0005.JPG" class="
 $(document).ready( function(){
   while(images.length){
     var index = Math.floor(Math.random()*images.length);
+    console.log(images[index]);
     $(".carousel-inner").append(images.splice(index,1)[0]);
   }
   document.querySelector(".carousel-item").classList.add("active");
