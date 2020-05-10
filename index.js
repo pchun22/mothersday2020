@@ -1,4 +1,4 @@
-var song = new Audio("betterTogether.mp3");
+//var song = new Audio("betterTogether.mp3");
 
 $(".ParkerButton").click( function() {
   console.log("clicked");
@@ -16,13 +16,13 @@ $(".carousel-inner").click( function() {
   $("#carouselSlideshow").toggleClass("carousel-fade");
 });
 
-$(".down-arrow").click( function() {
-  console.log("clicked");
-  if(song.paused){
-    song.play();
-  }
-  else{
-    song.pause();
-  }
+// $(".down-arrow").click( function() {
+//   console.log("clicked");
+//   if(song.paused){
+//     song.play();
+//   }
+//   else{
+//     song.pause();
+//   }
 
-});
+// });
